@@ -1,0 +1,21 @@
+
+
+
+:root {
+  --background-color: white;
+}
+
+.dark {
+  --background-color: black;
+}
+
+body {
+  background-color: var(--background-color);
+  margin: 100px 350px;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 100px 30px;
+  }
+}
