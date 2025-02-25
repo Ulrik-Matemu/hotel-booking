@@ -11,7 +11,7 @@
 
 body {
   background-color: var(--background-color);
-  margin: 100px 350px;
+  margin: 50px 350px;
 }
 
 @media (max-width: 768px) {

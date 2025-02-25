@@ -1,9 +1,11 @@
 body {
-    margin: 50px 350px;
+    margin: 10px 350px;
 }
 
-@media (max-width: 768px) {
+
+@media (max-width: 1024px) {
     body {
-        margin: 50px 25px;
+        margin: 10px 15px;
     }
 }
+

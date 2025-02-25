@@ -2,6 +2,7 @@ import Header from "@/components/my-components/header";
 import { HotelImage } from "@/components/my-components/hotel-image";
 import { BookingForm } from "@/components/my-components/booking-form";
 import './home.css';
+import { AvailableRooms } from "../components/my-components/rooms"
 
 
 export const Home = () => {
@@ -14,6 +15,7 @@ export const Home = () => {
                 alt="Hotel Verde"
                 />
             <BookingForm />
+            <AvailableRooms />
         </>
     );
 }
