@@ -24,11 +24,11 @@ export const AvailableRooms = () => {
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 gap-4">
             <h2 className="text-2xl font-semibold">Available Rooms</h2>
             {rooms.filter(room => room.available).map((room) => (
-                <div key={room.id} className="flex border p-4 rounded-lg shadow-md gap-2.5">
-                    <div className="w-1/2">
+                <div key={room.id} className="md:flex border p-4 rounded-lg shadow-md gap-2.5">
+                    <div className="md:w-1/2 sm:w-full">
                         <img src={room.src} alt="" className="h-full"></img>
                     </div>
-                    <div className="w-1/2 h-full flex flex-col">
+                    <div className="md:w-1/2 sm:w-full flex flex-col">
                         <h3 className="text-lg font-semibold">{room.name}</h3>
                       
                         <div className="flex gap-1">
