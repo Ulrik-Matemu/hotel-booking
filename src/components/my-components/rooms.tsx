@@ -43,7 +43,7 @@ export const AvailableRooms = () => {
                             <span className="font-bold text-2xl">${room.price}</span> per night
                         </p>
                         <p className="flex gap-1 my-4">
-                            More info <SquareArrowOutUpRight strokeWidth={1} />
+                            More info <SquareArrowOutUpRight size={15} strokeWidth={1} />
                         </p>
                       
                         <div className="flex-grow"></div> {/* Pushes the button to the bottom */}
