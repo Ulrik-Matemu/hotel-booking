@@ -13,8 +13,8 @@ interface Room {
 
 const mockRooms: Room[] = [
     { id: 1, name: "Deluxe Room", price: 100, capacity: 2, available: true, src: "/hotel-booking/room1.jpg"  },
-    { id: 2, name: "Standard Room", price: 70, capacity: 1, available: true, src: "/hotel-booking/room1.jpg" },
-    { id: 3, name: "Family Suite", price: 150, capacity: 4, available: true, src: "/hotel-booking/room1.jpg" } // Example of an unavailable room
+    { id: 2, name: "Standard Room", price: 70, capacity: 1, available: true, src: "/hotel-booking/room2.jpg" },
+    { id: 3, name: "Family Suite", price: 150, capacity: 4, available: true, src: "/hotel-booking/room3.jpg" } // Example of an unavailable room
 ];
 
 export const AvailableRooms = () => {
