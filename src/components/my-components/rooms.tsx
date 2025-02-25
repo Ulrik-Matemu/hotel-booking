@@ -17,7 +17,7 @@ const mockRooms: Room[] = [
     { id: 3, name: "Family Suite", price: 150, capacity: 4, available: true, src: "/hotel-booking/room1.jpg" } // Example of an unavailable room
 ];
 
-export const AvailableRooms = ({ hotelId, checkIn, checkOut }: { hotelId: number; checkIn: string; checkOut: string }) => {
+export const AvailableRooms = () => {
     const [rooms] = useState(mockRooms);
 
     return (
