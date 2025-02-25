@@ -8,7 +8,7 @@ interface HotelImageProps {
 
 export const HotelImage: React.FC<HotelImageProps> = ({ src, alt }) => {
     return (
-        <AspectRatio ratio={30 / 9} className="bg-muted">
+        <AspectRatio ratio={30 / 6} className="bg-muted">
             <img
                 src={src}
                 alt={alt}

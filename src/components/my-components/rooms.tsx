@@ -26,7 +26,7 @@ export const AvailableRooms = () => {
             {rooms.filter(room => room.available).map((room) => (
                 <div key={room.id} className="md:flex border p-4 rounded-lg shadow-md gap-2.5">
                     <div className="md:w-1/2 sm:w-full">
-                        <img src={room.src} alt="" className="h-full"></img>
+                        <img src={room.src} alt="" className="h-full rounded"></img>
                     </div>
                     <div className="md:w-1/2 sm:w-full flex flex-col">
                         <h3 className="text-lg font-semibold">{room.name}</h3>
